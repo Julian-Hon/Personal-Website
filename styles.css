@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4FDD9;
+    padding-bottom: 70px;
+
+}
+.stylebutton{
+    background-color:#6A8D73;
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.stylebutton:hover {
+    background: #E4FFE1;
+}
+
+.navbar{
+    display: flex;
+    background-color: #6A8D73;
+    width: 100%;
+    border: 2px solid black;
+    
+
+
+}
+.navbar-list{
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+    margin: 5px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navbar-item{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid #555;
+    float: left;
+    padding: 5px;
+
+}
+.navbar-item:last-child {
+    border-right: none; 
+  }
+  .navbar-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.picture-section{
+    background-color: #F4FDD9;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.pictureface{
+    width: 16rem;
+    height:21rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.body-section{
+    background-color: #E4FFE1;
+    
+}
+.links-section{
+    background-color: #6A8D73;
+    display: flex;
+    gap: 1rm;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.about-image{
+    height: 60px;
+    width: auto;
+}
+.project-section{
+    background-color: #F4FDD9;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.project-item{
+    text-align: center;
+}
+.project-image{
+    width: 90%;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.project-github{
+    font-weight: 100px;
+    color: black;
+    text-decoration: underline;
+}
+.resume{
+    border: 2px solid black;
+}
+.resume-section{
+    background-color: #E4FFE1;
+    padding: 50px;
+    text-align: center;
+}
+.skills-section{
+    border: 2px solid black;
+}
+.volunteer-section{
+    display: flex;
+      align-items: flex-start;
+    padding: 20px;
+    margin: 10px;
+    gap:10px;
+    border: 2px solid black;
+}
+.volunteer{
+    padding: 10px;
+    object-fit: cover;  
+    text-align: center;
+}
+.volunteer-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.volunteer-text{
+    display: flex;
+    flex-direction: column;
+}
